@@ -13,7 +13,7 @@ public class TestController {
   public void test1(){
     System.out.println(1);
     System.out.println("hi");
-    System.out.println("count : 4");
+    System.out.println("count : 5");
   }
 
   @GetMapping("/2")
