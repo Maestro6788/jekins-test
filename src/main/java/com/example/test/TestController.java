@@ -12,6 +12,7 @@ public class TestController {
   @GetMapping("/1")
   public void test1(){
     System.out.println(1);
+    System.out.println("hi");
   }
 
   @GetMapping("/2")
