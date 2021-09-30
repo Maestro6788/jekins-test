@@ -4,9 +4,9 @@ pipeline {
         timeout(time: 1, unit: 'HOURS')
     }
     environment {
-        SOURCECODE_JENKINS_CREDENTIAL_ID = 'jenkins-github-wh'
-        SOURCE_CODE_URL = 'https://github.com/MinjiY/Springboot-jenkins.git'
-        RELEASE_BRANCH = 'master'
+        SOURCECODE_JENKINS_CREDENTIAL_ID = 'jenkins-github-aws'
+        SOURCE_CODE_URL = 'https://github.com/Maestro6788/jekins-test.git'
+        RELEASE_BRANCH = 'main'
     }
     stages {
         stage('Init') {
